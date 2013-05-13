@@ -1,5 +1,5 @@
 //
-//  DHCInitializers.h
+//  OtherTestObject.h
 //  DHCInitializers
 //
 //  Created by Daniel Haight on 13/05/2013.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (DHCInitializers)
+@interface OtherTestObject : NSObject
 
-+(instancetype)objectWithDictionary:(NSDictionary *)dictionary;
+@property (nonatomic, strong) NSNumber *aNumber;
 
 @end
